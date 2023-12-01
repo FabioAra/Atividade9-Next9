@@ -1,0 +1,28 @@
+{
+
+  "dependencies": {
+
+    "next": "^14.17.0"
+
+  },
+
+  
+
+  "scripts": {
+
+    "dev": "next dev",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },  
+  
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
+  }
+  
+   
+
+}
+
